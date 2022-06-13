@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "Projeto_HTML",
+			"path": "."
+		},
+		{
+			"name": "imagens",
+			"path": "..\\Projeto_do_em_HTML_do_Curso_Git-GuitHub\\imagens"
+		},
+		{
+			"name": "stilos",
+			"path": "..\\Projeto_do_em_HTML_do_Curso_Git-GuitHub\\stilos"
+		}
+	],
+	"settings": {}
+}
