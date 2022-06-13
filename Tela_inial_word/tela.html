@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <title>PROTÓTIPO TELA INICIAL DE WORD</title>
+
+
+    <style>
+        body{font-family: Arial, Helvetica, sans-serif; background-color: mediumspringgreen;}
+        .content{display: flex; justify-content: center;}
+        .prototipo{width: 100%; max-width: 600px;}
+        .form{display: flex; flex-direction: column;}
+        .field{padding: 30 px; margin-bottom: 30px; border: 5px solid  #DDD; border-radius: 5px; font-family: Arial, Helvetica, sans-serif ; font-size: 16px; }
+        textarea{height: 200px; width: 260px;}
+    </style>
+
+
+</head>
+<body>
+    
+
+    <section class="content">
+        <div class="prototipo">
+
+            <h2>PROTÓTIPO DA TELA INICIAL DE WORD</h2>
+
+            <form class="form" method="POST" action="./prototipo_tela.php">
+
+                <ul>
+                    <li>
+                        <input type="submit" value="Opção 1">
+                        <input type="submit" value="Opção 2">
+                        <input type="submit" value="Opção 3">
+                        <input type="submit" value="Opção 4">
+                        <input class="field" name="Operacao" placeholder="Pesquisar">
+                    </li>
+                </ul>
+
+                             
+                <li>
+                    <textarea class="field" name="mesage" placeholder= "INSIRA UM TEXTO AQUI PARA VERIFICAR E CORRIGIR OS ERROS!"></textarea> 
+                    <textarea class="field" name="mesage" placeholder="TEXTO CORRIGIDO."></textarea>
+                </li>
+                
+
+                <input type="submit" value="Analisar os erros e retificá-los">
+
+            </form>
+        </div>  
+    </section>  
+
+</body>
+</html>
